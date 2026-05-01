@@ -16,6 +16,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: var(--theme-background, white);
     color: var(--font-color, black);
+    overflow: hidden scroll;
 
 
 }
