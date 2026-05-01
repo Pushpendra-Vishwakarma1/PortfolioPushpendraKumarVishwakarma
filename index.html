@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>full-stack Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- navbar -->
+        <nav>
+            <div class="logo">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+
+            <div class="navlinks" id="navlinks">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skill">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#project">projects</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- home section -->
+        <section id="home">
+            <div class="mindset">
+                <h5>Learning & Growing Every Day</h5>
+            </div>
+            <div class="heading">
+                <h1>Aspiring Web Developer</h1>
+            </div>
+            <div class="paragraph">
+                <p>I'm a passionate fresher learning web development fundamentals. Building my skills in HTML, CSS, and
+                    JavaScript while creating small projects and practicing daily.</p>
+            </div>
+            <div class="btn">
+                <a href="#project" class="btn-link">View my learning projects</a>
+                <a href="#contact">connect with me</a>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-card active">
+                    <h2>HTML</h2>
+                </div>
+                <div class="skill-card">
+                    <h2>CSS</h2>
+                </div>
+                <div class="skill-card">
+                    <h2>TailWind CSS</h2>
+                </div>
+                <div class="skill-card">
+                    <h2>JavaScript (Learning)</h2>
+                </div>
+                <div class="skill-card">
+                    <h2>React (Learning)</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-heading">
+                <h1>About Me</h1>
+                <p>Learning and growing in web development with enthusiasm and dedication</p>
+            </div>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I'm a passionate beginner in web development, currently in my learning phase and focused on
+                        mastering the fundamentals. My journey started with curiosity about how websites work, and I'm
+                        now dedicated to building a strong foundation in HTML, CSS, and JavaScript.</p>
+                    <p>As a fresher, I'm committed to continuous learning and practicing daily. I enjoy building small
+                        projects to reinforce my understanding and am excited about the endless possibilities in web
+                        development. I'm eager to learn from experienced developers and contribute to meaningful
+                        projects.</p>
+                    <div class="box">
+
+                        <div class="box-content">
+                            <h2>10+</h2>
+                            <p>Learning Projects</p>
+                        </div>
+                        <div class="box-content">
+                            <h2>6+</h2>
+                            <p>Months Learning</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="about-image">
+                    <img src="assets/about.jpg" alt="about img">
+                </div>
+            </div>
+        </section>
+        <section id="skill">
+            <div class="skill-heading">
+                <h1>Skills & Expertise</h1>
+                <p>Technologies and tools I use to bring ideas to life</p>
+            </div>
+            <div class="skill-container">
+                <div class="skill-container-item">
+
+                    <h2 style="font-weight: 500;">Technical Skills</h2>
+                    <label for="html-skill">HTML</label>
+                    <progress id="html-skill" value="85" max="100"></progress>
+                    <label for="css-skill">CSS</label>
+                    <progress id="css-skill" value="75" max="100"></progress>
+                    <label for="JavaScript-skill">JavaScript</label>
+                    <progress id="JavaScript-skill" value="45" max="100"></progress>
+                    <label for="Figma-skill">Figma</label>
+                    <progress id="Figma-skill" value="35" max="100"></progress>
+                    <label for="Git-skill">Git</label>
+                    <progress id="Git-skill" value="43" max="100"></progress>
+                    <label for="React-skill">React (Learning)</label>
+                    <progress id="React-skill" value="25" max="100"></progress>
+
+
+
+
+
+
+
+                </div>
+                <div class="skill-container-item">
+                    <h2 style="font-weight: 500;">Tools & Technologies</h2>
+                    <div class="bullet">
+                        <span>VS Code</span>
+                        <span>Git/GitHub</span>
+                        <span>Chrome DevTools</span>
+                        <span>Figma</span>
+                    </div>
+                    <h2>Frontend Basics</h2>
+                    <p>HTML5, CSS3, JavaScript ES6, Responsive Design</p>
+                    <h2>Styling</h2>
+                    <p>CSS Grid, Flexbox, Bootstrap, Basic animations</p>
+                    <h2>Learning</h2>
+                    <p>React fundamentals, Node.js basics, Modern workflow</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+
+
+            <div class="project-heading">
+                <h1>Featured Projects</h1>
+                <p>A selection of my recent work that showcases my skills and passion for development</p>
+            </div>
+
+            <div class="project-container">
+                <div class="project-container-item">
+                    <div class="project-container-item-image">
+                        <img src="assets/portfolio.jpg" alt="portfolio img">
+                    </div>
+                </div>
+                <div class="project-container-item">
+
+                    <div class="project-container-item-text">
+
+                        <h2>Personal Portfolio Website</h2>
+                        <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript. Features smooth
+                            scrolling, mobile-first design, and interactive elements. This project helped me understand
+                            the
+                            fundamentals of web development.</p>
+                        <div class="bullet">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <div class="project-button">
+                            <a href=""> <i class='bx bxl-github'></i> Code</a>
+                            <a href="https://portfolio-xyy.netlify.app" target="_blank"> <i
+                                    class='bx bx-link-external'></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="project-container">
+                <div class="project-container-item">
+
+                    <div class="project-container-item-image">
+                        <img src="assets/Screenshot 2025-12-06 132440.png" alt="transform img">
+                    </div>
+
+                </div>
+                <div class="project-container-item">
+
+                    <div class="project-container-item-text">
+                        <h2>Transform by pk</h2>
+                        <p>A responsive personal transform website built with HTML, CSS. Features smooth
+                            scrolling, mobile-first design, and interactive elements. This project helped me understand
+                            the
+                            fundamentals of Transform.</p>
+                        <div class="bullet">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="project-button">
+                            <a href=""> <i class='bx bxl-github'></i> Code</a>
+                            <a href="https://transformbypkumar.netlify.app" target="_blank"> <i
+                                    class='bx bx-link-external'></i> Live Demo</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-item-content">
+                    <div class="project-item-content-image">
+
+
+                        <img src="assets/Screenshot 2025-12-06 133613.png" alt="todolist img">
+                    </div>
+                </div>
+                <div class="project-item-content">
+                    <div class="project-item-content-text">
+
+                        <h2>Clone Website</h2>
+                        <p>A simple real world application that Clone<a
+                                href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/?utm_source=CWH&utm_medium=LeadsAcquisition&utm_content=UEDownload&utm_campaign=UETrialDownload"
+                                target="_blank"> this
+                                website</a> & Built
+                            with HTML,
+                            CSS.Features smooth
+                            scrolling, mobile-first design, and interactive elements. This project helped me understand
+                            the
+                            fundamentals of web development.
+                        </p>
+                        <div class="bullet">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="project-button">
+                            <a href=""> <i class='bx bxl-github'></i> Code</a>
+                            <a href="https://clonebypushpendra.netlify.app/" target="_blank"> <i
+                                    class='bx bx-link-external'></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="view-project">
+                <a href="">View all project</a>
+            </div>
+
+        </section>
+        <section id="contact">
+            <div class="contact-heading">
+                <h1>Get In Touch</h1>
+                <p>Ready to work together? Let's discuss your next project and bring your ideas to life.</p>
+            </div>
+
+
+
+            <div class="contact-container">
+                <!-- <div class="contact-container-item"> -->
+
+
+                <div class="contact-container-item-slide1  sample">
+                    <h2>
+                        Contact Information
+                    </h2>
+                    <div class="info">
+                        <div class="icon-box"><i class='bx bx-envelope'></i></div>
+                        <div class="info-text">
+                            <strong>Email</strong>
+                            <span>pushpendrakumar@email.com</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="icon-box"><i class='bx bx-phone'></i></div>
+                        <div class="info-text">
+                            <strong>Phone</strong>
+                            <span>+91 7582098225</span>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="icon-box"><i class='bx bx-map'></i></div>
+                        <div class="info-text">
+                            <strong>Location</strong>
+                            <span>Satna, MP</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="contact-container-item-slide2 sample">
+
+                    <h2 style="font-weight: 500;">Follow Me</h2>
+                    <div class="info">
+                        <a href=""><i class='bx bxl-github'></i></a>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                    </div>
+
+
+                </div>
+                <!-- <div class="contact-container-item"> -->
+                <div class="contact-container-item-text sample">
+                    <h2 style="font-weight: 500;">Send a Message</h2>
+
+                    <form action="/submit">
+                        <div class="user">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="user"> <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+
+
+                        <div class="user">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+                        </div>
+                        <div class="user">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project"
+                                required></textarea>
+
+                        </div>
+                        <div class="user">
+                            <button>Send Message</button>
+                        </div>
+
+
+
+                    </form>
+                </div>
+                <!-- </div> -->
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>© 2025 Portfolio. Built with HTML, CSS3 and JavaScript.</h2>
+            <p>Designed & Developed with PushpendraKumar</p>
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
